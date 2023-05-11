@@ -2,12 +2,6 @@ using GeekBurger.Orders.Repository;
 using GeekBurger.Orders.Service;
 using Microsoft.EntityFrameworkCore;
 
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.OpenApi.Models;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
